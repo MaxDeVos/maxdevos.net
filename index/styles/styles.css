@@ -29,5 +29,6 @@ body {
 
 .maxpic{
     max-width: 800px;
-    min-width:0px;
+    min-width:150px;
+    width:80vw;
 }
