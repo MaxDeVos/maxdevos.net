@@ -1,0 +1,27 @@
+div.pagination {
+	padding: 3px;
+	margin: 25px auto 15px;
+	text-align: center;
+	display: block;
+}
+
+div.pagination a, div.pagination span.pages, div.pagination span.dots, div.pagination span.current {
+  margin: 1px 2px;
+  padding: 5px 10px;
+  display: inline-block;
+  text-decoration: none !important;
+  color: #717171 !important;
+  font-size: smaller !important;
+  font-family: 'Cabin', Helvetica, sans-serif;
+  background-color: #fbf8f4;
+}
+
+div.pagination a:hover, div.pagination a:focus {
+	color: #fff !important;
+  background-color: #000;
+}
+
+div.pagination span.current {
+  color: #fff !important;
+  background-color: #000;
+}

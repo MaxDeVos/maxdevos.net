@@ -1,0 +1,33 @@
+html {
+    /*background: url(images/PCBMillBlackandWhite.png) no-repeat center center fixed;*/
+    /*-webkit-background-size: cover;*/
+    /*-moz-background-size: cover;*/
+    /*-o-background-size: cover;*/
+    /*background-size: cover;*/
+}
+
+.centered {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    /* bring your own prefixes */
+    transform: translate(-50%, -50%);
+    text-align: center;
+    display: flex;
+    align-content: center;
+    justify-content: center;
+}
+
+.soon {
+    position: relative;
+    font-size: 250px;
+    font-family: sans-serif;
+    color: #630c00;
+    z-index: 1;
+}
+
+.pcb-image{
+    position: absolute;
+    z-index: 0;
+    height:100%
+}

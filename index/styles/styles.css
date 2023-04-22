@@ -1,0 +1,33 @@
+:root {
+    --main-background:#2b2b2b;
+    --accent-background:#444444;
+    --accent:#DA0037;
+    --foreground: #EDEDED;
+}
+
+body {
+    background-color: var(--main-background);
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+    margin:0;
+}
+
+.container {
+    margin-top: -100px;
+    padding: 100px 20px 200px 20px;
+    background-color: var(--accent-background);
+    margin-left: 20px;
+    margin-right: 20px;
+    text-align: center;
+}
+
+.title_area {
+    grid-area: 1 / 2 / 2 / 3;
+    text-align: center;
+}
+
+.maxpic{
+    max-width: 800px;
+    min-width:0px;
+}

@@ -1,0 +1,18 @@
+@font-face {
+    font-family: "JetBrains Mono Regular";
+    src: url("../../fonts/JMono-Reg.woff2");
+}
+
+body {
+    font-family: "JetBrains Mono Regular", serif;
+    color: var(--foreground);
+}
+
+.title {
+    font-size:50px;
+    margin-bottom:0;
+}
+
+.subtitle {
+    margin-top:5px;
+}
